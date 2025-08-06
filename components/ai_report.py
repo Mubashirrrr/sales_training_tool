@@ -77,7 +77,7 @@ def initialize_openai_client(api_key: str) -> Optional[openai.OpenAI]:
 
 def get_environment_api_key() -> Optional[str]:
     """Get hardcoded OpenAI API key"""
-    return "abc"
+    return "abcxyz"
 
 def check_openai_version() -> bool:
     """Check if OpenAI library version is compatible"""
